@@ -1,2 +1,2 @@
-# Blog_com-_laravel
+# Blog com laravel
 Meu blog de tecnologia construído com Laravel
