@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash; 
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\File;
 use App\Models\User;
 use App\Models\Post;
 
@@ -79,8 +80,17 @@ class MainController extends Controller
     }
     public function deletepost($id){
         $post = Post::find($id); 
-        $post->delete();
 
+        if ($post->caminho_imagem) {
+            $caminhoImagem = public_path($post->caminho_imagem);
+
+            if (File::exists($caminhoImagem)) {
+                File::delete($caminhoImagem);
+            }
+        }
+
+        $post->delete();
+        
         return redirect('/');
     }
 }
