@@ -1,5 +1,5 @@
 <h1 align="center"> Meu blog de tecnologia com Laravel</h1>
-<p align="center">Um blog de tecnlogia que fiz em laravel com o intuito de compartilhar conhecimento e consquentemente evoluir meu proprio conhecimento!</p>
+<p align="center">Um blog de tecnlogia feito em laravel com o intuito de compartilhar e aprimorar meu conhecimento!</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
