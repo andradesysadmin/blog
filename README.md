@@ -1,5 +1,5 @@
 <h1 align="center"> Meu blog de tecnologia com Laravel</h1>
-<p align="center">Um blog de tecnlogia feito em laravel com o intuito de compartilhar e aprimorar meu conhecimento!</p>
+<p align="center">Este é meu projeto de blog de tecnologia construído utilizando o framework Laravel. Este blog é uma plataforma onde posso compartilhar informações, tutoriais, análises e notícias sobre as últimas tendências em tecnologia</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -9,4 +9,25 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## 
+## Funcionalidades
+
+- **Postagem de Artigos:** Posso, de maneira remota e online postar e excluir artigos sobre uma variedade de tópicos relacionados à tecnologia.
+- **Sistema de Autenticação:** O sistema possui apenas um usuario que gerencia e efetua as postagens no blog.
+- **Administração:** Área administrativa protegida por senha para gerenciar postagens, comentários e usuários.
+
+## Pré-requisitos
+
+Certifique-se de ter os seguintes requisitos antes de executar o projeto:
+
+- PHP >= 7.4
+- Composer
+- MySQL ou outro banco de dados suportado pelo Laravel
+- Node.js e NPM (para compilar recursos front-end, se necessário)
+
+## Instalação
+
+1. Clone o repositório:
+
+```bash
+  git clone https://github.com/seu-usuario/blog-tecnologia-laravel.git
+
