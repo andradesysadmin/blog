@@ -13,7 +13,8 @@
 
 - **Postagem de Artigos:** Posso, de maneira remota e online postar e excluir artigos sobre uma variedade de tópicos relacionados à tecnologia.
 - **Sistema de Autenticação:** O sistema possui apenas um usuario que gerencia e efetua as postagens no blog.
-- **Administração:** Área administrativa protegida por senha para gerenciar postagens, comentários e usuários.
+- **Administração:** Área administrativa protegida por senha para gerenciar postagens.
+- **HTML nas postagens:** O sistema de posts usa HTML na reenderização do conteudo das postagens, podendo usar tags HTML para tornar os textos mais interessantes
 
 ## Pré-requisitos
 
@@ -22,12 +23,6 @@ Certifique-se de ter os seguintes requisitos antes de executar o projeto:
 - PHP >= 7.4
 - Composer
 - MySQL ou outro banco de dados suportado pelo Laravel
-- Node.js e NPM (para compilar recursos front-end, se necessário)
 
-## Instalação
-
-1. Clone o repositório:
-
-```bash
-  git clone https://github.com/seu-usuario/blog-tecnologia-laravel.git
-
+## Licença
+Este projeto é licenciado sob a <a href="https://opensource.org/license/mit">MIT License</a>
