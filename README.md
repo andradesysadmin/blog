@@ -23,6 +23,3 @@ Certifique-se de ter os seguintes requisitos antes de executar o projeto:
 - PHP >= 7.4
 - Composer
 - MySQL ou outro banco de dados suportado pelo Laravel
-
-## Licença
-Este projeto é licenciado sob a <a href="https://opensource.org/license/mit">MIT License</a>
