@@ -1,4 +1,4 @@
-FROM php:8.0
+FROM php:8.1
 
 RUN apt-get update -y && \
     apt-get install -y openssl zip unzip git libonig-dev
