@@ -9,7 +9,9 @@ class AdicionarCaminhoImagemATabelaPosts extends Migration
     public function up()
     {
         Schema::table('posts', function (Blueprint $table) {
-            $table->string('caminho_imagem')->nullable();
+            if (!Schema::hasColumn('posts', 'caminho_imagem')) {
+                $table->string('caminho_imagem')->nullable();
+            }
         });
     }
 

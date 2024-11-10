@@ -16,8 +16,8 @@ class DatabaseSeeder extends Seeder
     {
         //Criando o unico usuario q o sistema tera
         $user = new User();
-        $user->name = 'Gabriel Andrade';
-        $user->password = Hash::make('galileia'); 
+        $user->name = 'admin';
+        $user->password = Hash::make('admin'); 
         $user->save();
     }
 }
