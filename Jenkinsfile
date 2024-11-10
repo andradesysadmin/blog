@@ -25,8 +25,8 @@ pipeline {
         stage('Deploy') {  
             steps {
                 echo 'Subindo a aplicação...'
-                sh "docker run -d -p 8000:8000 --name ${env.NAME} ${env.NAME}"
                 sh "docker-compose up -d --build"
+                sh "docker run -d -p 8000:8000 --name ${env.NAME} ${env.NAME}"
             }
         }
     }
