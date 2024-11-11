@@ -4,7 +4,8 @@
 if [ "$(id -u)" -ne 0 ]; then
 
     echo "O script deve ser executado com privilegios de super usuario!"
-
+    exit 1;
+    
 fi
 
 APP_NAME=blog
