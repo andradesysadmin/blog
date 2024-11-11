@@ -14,7 +14,7 @@ APP_NAME=blog
 
 # Verifica e instala o git
 git --version
-if [ $? -eq o ]; then
+if [ $? -eq 0 ]; then
     echo "O Git está instalado!"
 else
 
@@ -81,7 +81,7 @@ cd $APP_NAME/
 
 #Verificando e instalando Docker Compose
 docker-compose --version
-if [ $? -eq o ]; then
+if [ $? -eq 0 ]; then
     echo "Docker Compose está instalado!"
 else
     #Instalando Docker Compose
@@ -93,7 +93,7 @@ docker-compose up -d --build
 
 #Instalando Docker
 docker --version
-if [ $? -eq o ]; then
+if [ $? -eq 0 ]; then
     echo "Docker está instalado!"
 else
     sudo chmod +x docker_install.sh
