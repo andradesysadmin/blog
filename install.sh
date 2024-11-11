@@ -9,11 +9,10 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 APP_NAME=blog
-
 git clone https://github.com/andradesysadmin/$APP_NAME
 cd $APP_NAME/
 
-#Verificando e nstalando Docker Compose
+#Verificando e instalando Docker Compose
 docker-compose --version
 if [ $? -eq o ]; then
     echo "Docker Compose está instalado!"
