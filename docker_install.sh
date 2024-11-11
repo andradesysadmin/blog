@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# verifica se o script foi executado como root
+if [ "$(id -u)" -ne 0 ]; then
+
+    echo "O script deve ser executado com privilegios de super usuario!"
+    exit 1;
+    
+fi
+
 # Armazena o gerenciador de pacotes da distro
 PACKAGE_MANAGER=""
 
