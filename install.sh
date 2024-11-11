@@ -87,7 +87,7 @@ else
     #Instalando Docker Compose
     sudo curl -SL https://github.com/docker/compose/releases/download/v2.30.3/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 fi
-docker-compose up -d --build
+sudo docker-compose up -d --build
 
 
 
