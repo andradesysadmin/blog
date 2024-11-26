@@ -1,5 +1,5 @@
 <h1 align="center"> Meu blog de tecnologia com Laravel</h1>
-<p align="center">Este é meu projeto de blog de tecnologia construído utilizando o framework Laravel. Este blog é uma plataforma onde posso compartilhar informações, tutoriais, análises e notícias sobre as últimas tendências em tecnologia</p>
+<p align="center">Este é meu projeto de blog de tecnologia construído com Laravel e Docker. Este blog é uma plataforma onde posso compartilhar informações, tutoriais, análises e notícias sobre as últimas tendências em tecnologia</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
